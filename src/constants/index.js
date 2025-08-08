@@ -32,7 +32,7 @@ import {
   fallbacktech,
 } from "../assets";
 
-// Import the 'flashalgo' image directly
+// Import the 'flashalgo' asset separately to avoid conflicts
 import flashalgo from "../assets/flashalgo.png";
 
 export const navLinks = [
