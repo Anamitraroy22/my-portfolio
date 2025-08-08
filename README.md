@@ -3,7 +3,7 @@
 
 West Bengal, India  
 📧 anamitraroy2206@gmail.com | 📞 +91-96748-54571  
-🌐 [LinkedIn](https://linkedin.com/in/anamitra-roy) | [GitHub](https://github.com/Anamitraroy22)
+🌐 [LinkedIn](https://www.linkedin.com/in/anamitra-roy-6937a42a5/) | [GitHub](https://github.com/Anamitraroy22)
 
 ## 👨‍💻 Summary
 Results-driven Full Stack Developer experienced in building scalable, high-performance applications. Passionate about secure architectures, cloud-native technologies, and efficient design systems.
@@ -19,6 +19,7 @@ An AI-powered crypto training platform featuring real-time simulations, algorith
 ### 🐝 WhizBee
 **Tech Stack**: React, Firebase, Firestore, Tailwind CSS  
 A fun microlearning platform with gamified quizzes, course tracking, and engaging animations for children. Supports Google authentication, user progress visualization, and free trials.
+
 
 ### 🎵 Jamzy
 **Tech Stack**: Flutter, just_audio, Hive, OnAudioQuery  

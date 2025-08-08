@@ -1,4 +1,6 @@
 // src/constants/index.js
+
+// Import general assets directly from src/assets (if they are here)
 import {
   backend,
   frontend,
@@ -17,19 +19,21 @@ import {
   python,
   androidstudio,
   tableau,
-  threejs, // Make sure threejs and figma are imported if used in technologies
+  threejs,
   figma,
   wizztech,
   tp,
   technoindiauniversity,
-  FlashAlgo,
   skiva,
   flutter,
   globe,
   whizbee,
   github,
-  fallbacktech
+  fallbacktech,
 } from "../assets";
+
+// Import the 'flashalgo' image directly
+import flashalgo from "../assets/flashalgo.png";
 
 export const navLinks = [
   { id: "about", title: "About" },
@@ -41,7 +45,7 @@ const services = [
   { title: "Frontend Developer", icon: frontend },
   { title: "Backend Developer", icon: backend },
   { title: "MERN Stack Developer", icon: web },
-  { title: "Flutter Developer", icon: flutter }, // Flutter logo
+  { title: "Flutter Developer", icon: flutter },
 ];
 
 const technologies = [
@@ -59,9 +63,6 @@ const technologies = [
   { name: "Python", icon: python?.default || python || fallbacktech },
   { name: "Android Studio", icon: androidstudio?.default || androidstudio || fallbacktech },
   { name: "Tableau", icon: tableau?.default || tableau || fallbacktech },
-  // Ensure these are included if you want them in your tech section
-  // { name: "Three JS", icon: threejs?.default || threejs || fallbacktech },
-  // { name: "Figma", icon: figma?.default || figma || fallbacktech },
 ];
 
 const experiences = [
@@ -179,7 +180,7 @@ const projects = [
       { name: "mongodb", color: "green-text-gradient" },
       { name: "tailwind", color: "pink-text-gradient" },
     ],
-    image: FlashAlgo,
+    image: flashalgo,
     source_code_link: "https://github.com/Anamitraroy22/FlashAlgo",
     live_demo_link: "https://flashalgo-ai.netlify.app",
   },

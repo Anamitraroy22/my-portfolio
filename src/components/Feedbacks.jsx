@@ -1,4 +1,4 @@
-// src/components/Feedbacks.jsx
+// src/components/Feedbacks.jsx 
 import React, { useState, useEffect } from "react"; // Import useEffect
 import { motion, AnimatePresence } from "framer-motion";
 
