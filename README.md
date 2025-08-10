@@ -6,7 +6,7 @@ West Bengal, India
 
 ## 👨‍💻 Summary
 Results-driven Full Stack Developer experienced in building scalable, high-performance applications. Passionate about secure architectures, cloud-native technologies, and efficient design systems.
-
+https://anamitraroy.vercel.app/  copy this link to see the live  demo 
 ---
 
 ## 🚀 Projects
@@ -42,12 +42,6 @@ A real-time social chat app supporting multimedia messaging, group chats, and em
 
 ---
 
-## 🎓 Education
-
-**B.Tech - Techno India University** (2022 – 2025) - CGPA: 8.0  
-**Diploma - Techno India University** (2019 – 2022) - CGPA: 7.56
-
----
 
 ## 🏅 Certifications
 - AWS Certified Cloud Practitioner (CLF-C02)
