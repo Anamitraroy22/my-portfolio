@@ -1,6 +1,5 @@
 // src/constants/index.js
 
-// Import general assets directly from src/assets (if they are here)
 import {
   backend,
   frontend,
@@ -19,21 +18,19 @@ import {
   python,
   androidstudio,
   tableau,
-  threejs,
+  threejs, // Make sure threejs and figma are imported if used in technologies
   figma,
   wizztech,
   tp,
   technoindiauniversity,
+  flashalgo,
   skiva,
   flutter,
   globe,
   whizbee,
   github,
-  fallbacktech,
+  fallbacktech
 } from "../assets";
-
-// Import the 'flashalgo' asset separately to avoid conflicts
-import flashalgo from "../assets/flashalgo.png";
 
 export const navLinks = [
   { id: "about", title: "About" },
@@ -45,7 +42,7 @@ const services = [
   { title: "Frontend Developer", icon: frontend },
   { title: "Backend Developer", icon: backend },
   { title: "MERN Stack Developer", icon: web },
-  { title: "Flutter Developer", icon: flutter },
+  { title: "Flutter Developer", icon: flutter }, // Flutter logo
 ];
 
 const technologies = [
@@ -63,6 +60,9 @@ const technologies = [
   { name: "Python", icon: python?.default || python || fallbacktech },
   { name: "Android Studio", icon: androidstudio?.default || androidstudio || fallbacktech },
   { name: "Tableau", icon: tableau?.default || tableau || fallbacktech },
+  // Ensure these are included if you want them in your tech section
+  // { name: "Three JS", icon: threejs?.default || threejs || fallbacktech },
+  // { name: "Figma", icon: figma?.default || figma || fallbacktech },
 ];
 
 const experiences = [
@@ -151,7 +151,7 @@ const testimonials = [
     name: "Dr. Rituparna Bhattacharya",
     designation: "HOD",
     company: "Techno India University",
-    image: "https://placehold.co/128x128/FF00FF/FFFFFF?text=RB", // Placeholder for Dr. Rituparna Bhattacharya
+    image: "https://placehold.co/128x128/FF00FF/FFFFFF?text=RB",
   },
   {
     testimonial:
@@ -159,7 +159,7 @@ const testimonials = [
     name: "Mr. Ramendu Karmakar",
     designation: "Co-founder",
     company: "WizzTech",
-    image: "https://placehold.co/128x128/00FFFF/000000?text=RK", // Placeholder for Mr. Ramendu Karmakar
+    image: "https://placehold.co/128x128/00FFFF/000000?text=RK",
   },
   {
     testimonial:
@@ -167,7 +167,7 @@ const testimonials = [
     name: "Ms. Sonam Gupta",
     designation: "Assistant Manager",
     company: "Teleperformance",
-    image: "https://placehold.co/128x128/FFFF00/000000?text=SG", // Placeholder for Sonam Gupta
+    image: "https://placehold.co/128x128/FFFF00/000000?text=SG",
   },
 ];
 const projects = [
@@ -214,15 +214,13 @@ const projects = [
   },
 ];
 
-// New array for research papers
 const researchPapers = [
   {
     title: "College Management System Research Report",
     authors: "Anamitra Roy",
     publication: "Final Year Project Report, Techno India University",
     abstract: "This research report details the development and implementation of a comprehensive college management system. It covers the system architecture, key features for administration and student management, and the underlying technologies used to enhance operational efficiency.",
-    link: "https://github.com/Anamitraroy22/College-Management-System-Research-Report-.git", // Your GitHub link
-    // image: "https://placehold.co/128x128/000000/FFFFFF?text=Paper1" // Removed image as it's not directly provided
+    link: "https://github.com/Anamitraroy22/College-Management-System-Research-Report-.git",
   },
   {
     title: "Optimizing Travel Booking Systems with NLP and Predictive Analytics",
