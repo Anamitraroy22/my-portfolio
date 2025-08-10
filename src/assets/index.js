@@ -8,10 +8,10 @@ import flutter from './flutter.png'; // Assuming this is the general Flutter log
 import github from './github.png'; // Added github import
 
 // Import technology icons from the 'tech' subfolder
-import html from './tech/html.jpg'; // CHANGED TO .JPG
+import html from './tech/html.jpg';
 import javascript from './tech/javascript.png';
 import typescript from './tech/typescript.png';
-import css from './tech/css.jpg'; // CHANGED TO .JPG
+import css from './tech/css.jpg';
 import reactjs from './tech/reactjs.png';
 import tailwind from './tech/tailwind.png';
 import nodejs from './tech/nodejs.png';
@@ -19,14 +19,14 @@ import mongodb from './tech/mongodb.png';
 import figma from './tech/figma.png';
 import threejs from './tech/threejs.svg';
 import fluttertech from './tech/fluttertech.png'; // This is the tech-specific Flutter icon
-import AWS from './tech/AWS.png'; // Keep case as per your file system (AWS.png)
+import AWS from './tech/AWS.png';
 import mysql from './tech/mysql.png';
-import python from './tech/python.png'; // Corrected path for python
+import python from './tech/python.png';
 import androidstudio from './tech/androidstudio.png';
 import tableau from './tech/tableau.png';
 
 // Ensure fallback-tech.png is in src/assets/tech/
-import fallbacktech from './tech/fallback-tech.png'; // <--- THIS IS CRUCIAL
+import fallbacktech from './tech/fallback-tech.png';
 
 // Import company logos from the 'company' subfolder
 import wizztech from './company/wizztech.png';
@@ -35,6 +35,7 @@ import technoindiauniversity from './company/technoindiauniversity.png';
 import globe from './company/globe.png';
 
 // Import project images directly from src/assets (if they are here)
+// Corrected to use lowercase filename 'flashalgo.png'
 import flashalgo from './flashalgo.png';
 import skiva from './skiva.png';
 import whizbee from './whizbee.png';
@@ -63,6 +64,7 @@ export {
   wizztech,
   tp,
   technoindiauniversity,
+  // Export using the corrected lowercase variable name
   flashalgo,
   skiva,
   flutter,

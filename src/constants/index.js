@@ -1,5 +1,4 @@
 // src/constants/index.js
-
 import {
   backend,
   frontend,
@@ -12,17 +11,18 @@ import {
   tailwind,
   nodejs,
   mongodb,
+  figma,
+  threejs,
   fluttertech,
   AWS,
   mysql,
   python,
   androidstudio,
   tableau,
-  threejs, // Make sure threejs and figma are imported if used in technologies
-  figma,
   wizztech,
   tp,
   technoindiauniversity,
+  // Corrected to import the lowercase variable name
   flashalgo,
   skiva,
   flutter,
@@ -46,6 +46,7 @@ const services = [
 ];
 
 const technologies = [
+  // TEMPORARY: Using placeholder images for HTML and CSS
   { name: "HTML 5", icon: html?.default || html || fallbacktech },
   { name: "CSS 3", icon: css?.default || css || fallbacktech },
   { name: "JavaScript", icon: javascript?.default || javascript || fallbacktech },
@@ -60,11 +61,9 @@ const technologies = [
   { name: "Python", icon: python?.default || python || fallbacktech },
   { name: "Android Studio", icon: androidstudio?.default || androidstudio || fallbacktech },
   { name: "Tableau", icon: tableau?.default || tableau || fallbacktech },
-  // Ensure these are included if you want them in your tech section
-  // { name: "Three JS", icon: threejs?.default || threejs || fallbacktech },
-  // { name: "Figma", icon: figma?.default || figma || fallbacktech },
+  { name: "Three JS", icon: threejs?.default || threejs || fallbacktech },
+  { name: "Figma", icon: figma?.default || figma || fallbacktech },
 ];
-
 const experiences = [
   {
     title: "B.Tech in Computer Science",
