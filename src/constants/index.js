@@ -59,10 +59,8 @@ const technologies = [
   { name: "AWS", icon: AWS?.default || AWS || fallbacktech },
   { name: "MySQL", icon: mysql?.default || mysql || fallbacktech },
   { name: "Python", icon: python?.default || python || fallbacktech },
-  { name: "Android Studio", icon: androidstudio?.default || androidstudio || fallbacktech },
   { name: "Tableau", icon: tableau?.default || tableau || fallbacktech },
   { name: "Three JS", icon: threejs?.default || threejs || fallbacktech },
-  { name: "Figma", icon: figma?.default || figma || fallbacktech },
 ];
 const experiences = [
   {
