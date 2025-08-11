@@ -31,6 +31,9 @@ A sleek offline-first music streaming app with playlist management, album art, a
 **Tech Stack**: Flutter, Firebase Auth, Cloud Firestore  
 A real-time social chat app supporting multimedia messaging, group chats, and emoji reactions. Includes user presence detection and encrypted messaging logic.
 
+
+A simple reminder this is not all the projects I have done.
+I have added more repo in GitHub, should I upload those also?
 ---
 
 ## 🧠 Skills
