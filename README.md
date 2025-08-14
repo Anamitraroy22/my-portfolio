@@ -34,6 +34,7 @@ A real-time social chat app supporting multimedia messaging, group chats, and em
 
 A simple reminder this is not all the projects I have done.
 I have added more repo in GitHub, should I upload those also?
+I will add a carousel slider for my projects and it will be updated as soon as possible inlcuding atleast 10 old projets.(in react and dart both)
 ---
 
 ## 🧠 Skills
