@@ -53,7 +53,7 @@ Added most of my projects, some are still in development and needs to work on nd
 - AWS Certified Cloud Practitioner (CLF-C02)
 - Google IT Automation with Python
 - Certified Kubernetes Administrator (CKA)
-
+- Now optaining oracle basic certificate that is fre now
 ---
 
 © Developed by **Anamitra Roy**
