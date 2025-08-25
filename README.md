@@ -59,5 +59,5 @@ Added most of my projects, some are still in development and needs to work on nd
 © Developed by **Anamitra Roy**
 
 
-there are some typo errors that I need to fix
+if you want to copy this repo feel free to copy it just leave a star for me Anamitra Roy.
 
