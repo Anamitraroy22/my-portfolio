@@ -1,4 +1,3 @@
-// src/constants/index.js
 import {
   backend,
   frontend,
@@ -22,7 +21,6 @@ import {
   wizztech,
   tp,
   technoindiauniversity,
-  // Corrected to import the lowercase variable name
   flashalgo,
   skiva,
   flutter,
@@ -31,6 +29,9 @@ import {
   github,
   fallbacktech
 } from "../assets";
+
+// NOTE: Removed local image imports that were causing the error.
+// The new project objects below will use a generic placeholder image URL.
 
 export const navLinks = [
   { id: "about", title: "About" },
@@ -42,11 +43,10 @@ const services = [
   { title: "Frontend Developer", icon: frontend },
   { title: "Backend Developer", icon: backend },
   { title: "MERN Stack Developer", icon: web },
-  { title: "Flutter Developer", icon: flutter }, // Flutter logo
+  { title: "Flutter Developer", icon: flutter },
 ];
 
 const technologies = [
-  // TEMPORARY: Using placeholder images for HTML and CSS
   { name: "HTML 5", icon: html?.default || html || fallbacktech },
   { name: "CSS 3", icon: css?.default || css || fallbacktech },
   { name: "JavaScript", icon: javascript?.default || javascript || fallbacktech },
@@ -62,6 +62,7 @@ const technologies = [
   { name: "Tableau", icon: tableau?.default || tableau || fallbacktech },
   { name: "Three JS", icon: threejs?.default || threejs || fallbacktech },
 ];
+
 const experiences = [
   {
     title: "B.Tech in Computer Science",
@@ -144,7 +145,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Anamitra's dedication to academic excellence and her innovative approach to problem-solving truly set her apart. Her research contributions were consistently insightful and well-articulated.",
+      "Anamitra's dedication to academic excellence and his  innovative approach to problem-solving truly set his apart. His research contributions were consistently insightful and well-articulated.",
     name: "Dr. Rituparna Bhattacharya",
     designation: "HOD",
     company: "Techno India University",
@@ -152,7 +153,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Working with Anamitra at WizzTech was a pleasure. Her full-stack development skills are robust, and she consistently delivered high-quality solutions that significantly contributed to our project successes.",
+      "Working with Anamitra at WizzTech was a pleasure. His full-stack development skills are robust, and she consistently delivered high-quality solutions that significantly contributed to our project successes.",
     name: "Mr. Ramendu Karmakar",
     designation: "Co-founder",
     company: "WizzTech",
@@ -160,7 +161,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Anamitra's work on our chatbot development project at Teleperformance was exceptional. Her ability to integrate NLP and improve response accuracy directly impacted our customer service efficiency.",
+      "Anamitra's work on our chatbot development project at Teleperformance was exceptional. His ability to integrate NLP and improve response accuracy directly impacted our customer service efficiency.",
     name: "Ms. Sonam Gupta",
     designation: "Assistant Manager",
     company: "Teleperformance",
@@ -209,7 +210,45 @@ const projects = [
     source_code_link: "https://github.com/Anamitraroy22/Skiva.git",
     live_demo_link: "https://skiva.vercel.app/",
   },
+  {
+    name: "Jamzy",
+    description: "A music player web application designed to provide a seamless and intuitive listening experience. It features a modern user interface, responsive design, and integration with popular music APIs.",
+    tags: [
+      { name: "React", color: "blue-text-gradient" },
+      { name: "Redux", color: "purple-text-gradient" },
+      { name: "Tailwind CSS", color: "pink-text-gradient" },
+    ],
+    image: "https://placehold.co/600x400/222222/666666?text=Jamzy",
+    source_code_link: "https://github.com/Anamitraroy22/Jamzy.git",
+    live_demo_link: "https://jamzy.netlify.app/",
+  },
+  {
+    name: "firstword",
+    description: "A collaborative writing platform where users can start stories with a single word and others can add to them. It's a fun way to explore creative writing and connect with other writers.",
+    tags: [
+      { name: "React", color: "blue-text-gradient" },
+      { name: "Node.js", color: "green-text-gradient" },
+      { name: "MongoDB", color: "pink-text-gradient" },
+      { name: "Express.js", color: "orange-text-gradient" },
+    ],
+    image: "https://placehold.co/600x400/222222/666666?text=FirstWord",
+    source_code_link: "https://github.com/Anamitraroy22/firstword.git",
+    live_demo_link: "https://firstword.herokuapp.com/",
+  },
+  {
+    name: "CV Analyzer",
+    description: "An application that analyzes a resume or CV and provides personalized feedback on formatting, keywords, and content. It helps users optimize their CVs to stand out to recruiters.",
+    tags: [
+      { name: "Python", color: "green-text-gradient" },
+      { name: "Flask", color: "blue-text-gradient" },
+      { name: "NLP", color: "purple-text-gradient" },
+    ],
+    image: "https://placehold.co/600x400/222222/666666?text=CV+Analyzer",
+    source_code_link: "https://github.com/Anamitraroy22/CV-Analyzer.git",
+    live_demo_link: "https://cvanalyzer.netlify.app/",
+  },
 ];
+
 
 const researchPapers = [
   {
