@@ -1,7 +1,7 @@
 # Anamitra Roy - Full Stack Developer Portfolio
 
 West Bengal, India  
-📧 anamitraroy2206@gmail.com | 📞 +91-96748-54571  
+📧 anamitraroy2206@gmail.com | 📞 +91-96748-54571  / 8420840471
 🌐 [Portfolio](https://anamitraroy.vercel.app/) | [LinkedIn](https://www.linkedin.com/in/anamitra-roy-6937a42a5/) | [GitHub](https://github.com/Anamitraroy22)
 
 ## 👨‍💻 Summary
