@@ -1,13 +1,12 @@
-
 # Anamitra Roy - Full Stack Developer Portfolio
 
 West Bengal, India  
 📧 anamitraroy2206@gmail.com | 📞 +91-96748-54571  
-🌐 [LinkedIn](https://www.linkedin.com/in/anamitra-roy-6937a42a5/) | [GitHub](https://github.com/Anamitraroy22)
+🌐 [Portfolio](https://anamitraroy.vercel.app/) | [LinkedIn](https://www.linkedin.com/in/anamitra-roy-6937a42a5/) | [GitHub](https://github.com/Anamitraroy22)
 
 ## 👨‍💻 Summary
 Results-driven Full Stack Developer experienced in building scalable, high-performance applications. Passionate about secure architectures, cloud-native technologies, and efficient design systems.
-
+https://anamitraroy.vercel.app/  copy this link to see the live  demo 
 ---
 
 ## 🚀 Projects
@@ -20,6 +19,9 @@ An AI-powered crypto training platform featuring real-time simulations, algorith
 **Tech Stack**: React, Firebase, Firestore, Tailwind CSS  
 A fun microlearning platform with gamified quizzes, course tracking, and engaging animations for children. Supports Google authentication, user progress visualization, and free trials.
 
+### 🌍 Skiva
+**Tech Stack**: React Native, Node.js, MongoDB, AWS  
+A luxurious sustainable travel app designed for eco-conscious travelers seeking premium experiences. Offers curated travel packages, carbon footprint tracking, eco-friendly accommodation booking, and AI-powered trip planning.
 
 ### 🎵 Jamzy
 **Tech Stack**: Flutter, just_audio, Hive, OnAudioQuery  
@@ -28,6 +30,12 @@ A sleek offline-first music streaming app with playlist management, album art, a
 ### 💬 SpaceChat
 **Tech Stack**: Flutter, Firebase Auth, Cloud Firestore  
 A real-time social chat app supporting multimedia messaging, group chats, and emoji reactions. Includes user presence detection and encrypted messaging logic.
+
+
+A simple reminder this is not all the projects I have done.
+I have added more repo in GitHub, should I upload those also?
+I will add a carousel slider for my projects and it will be updated as soon as possible inlcuding atleast 10 old projets.(in react and dart both)
+Added most of my projects, some are still in development and needs to work on nd will be up there soon.
 
 ---
 
@@ -40,18 +48,16 @@ A real-time social chat app supporting multimedia messaging, group chats, and em
 
 ---
 
-## 🎓 Education
-
-**B.Tech - Techno India University** (2022 – 2025) - CGPA: 8.0  
-**Diploma - Techno India University** (2019 – 2022) - CGPA: 7.56
-
----
 
 ## 🏅 Certifications
 - AWS Certified Cloud Practitioner (CLF-C02)
 - Google IT Automation with Python
 - Certified Kubernetes Administrator (CKA)
-
+- Now optaining oracle basic certificate that is fre now
 ---
 
 © Developed by **Anamitra Roy**
+
+
+if you want to copy this repo feel free to copy it just leave a star for me Anamitra Roy.
+
