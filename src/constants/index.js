@@ -222,6 +222,20 @@ const projects = [
     source_code_link: "https://github.com/Anamitraroy22/Jamzy.git",
     live_demo_link: "https://jamzy.netlify.app/",
   },
+   {
+  name: "School Management",
+  description:
+    "A full-stack school directory web application built as part of a technical assignment. It allows users to add, view, update, and manage school records with a clean and responsive UI.",
+  tags: [
+    { name: "Next.js", color: "blue-text-gradient" },
+    { name: "Tailwind CSS", color: "green-text-gradient" },
+    { name: "MySQL", color: "orange-text-gradient" },
+    { name: "React Hook Form", color: "purple-text-gradient" },
+  ],
+  image: "https://placehold.co/600x400/222222/666666?text=School+Management",
+  source_code_link: "https://github.com/Anamitraroy22/school-management", 
+  live_demo_link: "https://school-management-zeta-five.vercel.app/",
+},
   {
     name: "firstword",
     description: "A collaborative writing platform where users can start stories with a single word and others can add to them. It's a fun way to explore creative writing and connect with other writers.",
