@@ -36,8 +36,7 @@ A simple reminder this is not all the projects I have done.
 I have added more repo in GitHub, should I upload those also?
 I will add a carousel slider for my projects and it will be updated as soon as possible inlcuding atleast 10 old projets.(in react and dart both)
 Added most of my projects, some are still in development and needs to work on nd will be up there soon.
-Adding school management system project  I did for s company recently as their assignment task
-Understood one thing all these days that getting a job is not easy for all.
+Added school management system.
 ---
 
 ## 🧠 Skills
