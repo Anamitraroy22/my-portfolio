@@ -37,6 +37,7 @@ I have added more repo in GitHub, should I upload those also?
 I will add a carousel slider for my projects and it will be updated as soon as possible inlcuding atleast 10 old projets.(in react and dart both)
 Added most of my projects, some are still in development and needs to work on nd will be up there soon.
 Added school management system.
+More projets to add an ecommerce project 
 ---
 
 ## 🧠 Skills
