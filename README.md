@@ -57,7 +57,7 @@ More projets to add an ecommerce project
 - Now optaining oracle basic certificate that is fre now
 ---
 
-© Developed by **Anamitra Roy**
+© Developed by **Anamitra Roy **
 
 
 if you want to copy this repo feel free to copy it just leave a star for me Anamitra Roy.
